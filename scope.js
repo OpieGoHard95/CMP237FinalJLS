@@ -5,8 +5,8 @@
 var foo = function() {
   var x = "This ";
   var y = "works!";
-  console.log(x);
-  console.log(y); 
+  return [x, y]; 
+  
 }
 
 var x = 10
